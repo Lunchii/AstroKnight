@@ -1,0 +1,16 @@
+package CulminatingProject;
+
+public class Alien extends Enemy {
+
+    int health;
+    int globalX;
+    int vx;
+    int enemyX;
+    int enemyY;
+
+    Alien(int enemyX, int enemyY, int width, int height, int health, int vx) {
+        super(enemyX, enemyY, width, height, health, vx);
+    }
+}
+
+
