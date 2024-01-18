@@ -1,0 +1,23 @@
+package CulminatingProject;
+
+import java.awt.*;
+
+public class Enemy extends Rectangle {
+
+    int health;
+    int globalX;
+    int width, height;
+    int vx;
+    Player player;
+    int hitTimer;
+    Boolean canBeHit;
+
+    /**
+     * Constructor
+     */
+    Enemy(int x, int y, int width, int height, int health, int vx) {
+        super(x, y, width, height);
+        this.health = health;
+        this.vx = vx;
+    }
+}
